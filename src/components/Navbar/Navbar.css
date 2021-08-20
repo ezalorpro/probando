@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #faebd7;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-list__item {
+    padding: 10px;
+}
+
+.navbar-list__item:hover {
+    cursor: pointer;
+    background-color: #e2d1ba;
+}
